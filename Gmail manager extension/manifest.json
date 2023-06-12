@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Gmail Manager",
+    "version": "1.0",
+    "description": "Manage Gmails with ease.",
+
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "https://mail.google.com/*"
+    ],
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
+  
