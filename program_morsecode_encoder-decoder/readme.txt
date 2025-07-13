@@ -8,4 +8,3 @@ Algo :-
 	3. Write that in file in form of 0,1 string
 		a. If 1 long signal , if 0 short signal
 	
-Pseudocode
